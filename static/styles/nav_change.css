@@ -1,0 +1,28 @@
+.nav{
+    width: 5.98rem;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    margin:  .1rem auto;
+    border:1px solid #9b3539;
+    border-radius: 4px;
+    color: #9b3539;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    background: #fff;
+}
+.nav span{
+    font-size: .3rem;
+    -webkit-flex: 1;
+    flex: 1;
+}
+span.active-span{
+    color: #fff;
+    background: #9b3539;
+}
+.nav span:nth-of-type(2){
+    border:1px solid #9b3539;
+    border-top:none;
+    border-bottom: none;
+}

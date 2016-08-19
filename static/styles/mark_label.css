@@ -1,0 +1,17 @@
+.mark_label{
+    display: inline-block;
+    margin-right: 6px;
+    border-radius: 4px;
+    font-size: 12px;
+    padding:  1px 5px;
+    /*height: 1.4rem;
+    line-height: 1.5rem;*/
+}
+.mark_label:nth-of-type(n){
+    border:1px solid #9b3539;
+    color: #9b3539 ;
+}
+.mark_label:nth-of-type(2n){
+    border:1px solid #8d8d61;
+    color: #8d8d61;
+}

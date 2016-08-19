@@ -1,0 +1,121 @@
+.tab_nav{
+	height: .88rem;
+	line-height: .88rem;
+	border-bottom:1px solid #ddd;
+	overflow-x: hidden;
+	background: #fff;
+}
+@media screen and (max-width: 360px){
+	.tab_nav{
+		overflow-y:hidden;
+	}
+}
+.tab_nav .swiper-slide{
+	text-align: center;
+}
+.tab_nav .swiper-slide{
+	font-size: .32rem;
+	color: rgb(50,50,50);
+}
+.tab_nav .active-nav{
+	color: #9B3539;
+	height: .85rem;
+	border-bottom: 2px solid #9B3539;
+} 
+.content{
+	background: #fff;
+}
+.content_a{
+    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: .2rem 0;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.artImg{
+    width: 1.34rem;
+    height: 1rem;
+    overflow: hidden;
+    border-radius: 4px;
+    margin:0 .2rem;
+}
+.artCon{
+    flex: 1;
+    /*padding-right: .25rem;*/
+}
+.artCon h3{
+    font-size: .3rem;
+    height: .7rem;
+    line-height: .36rem;
+    color: rgb(50,50,50);
+    overflow: hidden;
+    text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient: vertical;
+}
+.artCon p{
+    font-size: .24rem;
+    color: rgb(144,144,144);
+    margin-top: .1rem;
+}
+.artCon p strong{
+    float: right;    
+}
+#swiper-container2 .artCon p strong{
+	margin-top: .01rem;
+}
+@media screen and (max-width: 360px){
+	#swiper-container2 .artCon p strong{
+	margin-top: .02rem;
+}
+}
+.artBtn{
+	width: 1.2rem;
+	height: .44rem;
+	text-align: center;
+	line-height: .44rem;
+	margin: 0 .2rem;
+	border: 1px solid #9B3539;
+	color: #9B3539;
+	border-radius: 4px;
+	font-size: .28rem;
+}
+
+.header{
+	height: .88rem;
+	padding: 0 .2rem;
+	line-height: .88rem;
+	background: #fff;
+}
+.header input{
+	width: 100%;	
+	font-size: .32rem;
+	color: rgb(50,50,50);
+}
+.header input::-moz-placeholder,.header input::-webkit-input-placeholder{
+	font-size: .32rem;
+	color:rgb(204,204,204);
+}
+.dots{
+	text-overflow: ellipsis;-webkit-line-clamp:1;-webkit-box-orient: vertical;
+}
+.text_cont{
+	padding:.2rem;
+	border:1px solid #ddd;
+	border-left: none;
+	border-right: none;
+	background: #fff;
+	height: 5.74rem;
+}
+.text_cont textarea{
+	width: 100%;
+	font-size: .28rem;
+	line-height: .4rem;
+	color: rgb(100,100,100);
+	overflow-y:visible; 
+}
+.text_cont textarea::-moz-placeholder,.text_cont textarea::-webkit-input-placeholder{
+	font-size: .28rem;
+	color:rgb(204,204,204);
+}

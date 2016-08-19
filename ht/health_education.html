@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" />
+    <meta name="keywords" />
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control" />
+    <meta content="no-cache" http-equiv="pragma"/>
+    <meta content="0" http-equiv="expires" />
+    <meta content="telephone=no, address=no" name="format-detection" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <title>健康教育</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles/reset.css"/>   
+    <link rel="stylesheet" type="text/css" href="../static/styles/nav_change.css"/> 
+    <link rel="stylesheet" type="text/css" href="../static/styles/mark_label.css"/> 
+    <link rel="stylesheet" type="text/css" href="../static/styles/health_education.css"/> 
+    <link rel="stylesheet" type="text/css" href="../static/styles/swiper-3.2.7.min.css"/>    
+    <script src="../static/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../static/js/swiper-3.2.7.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../static/js/html.fontSize.js" type="text/javascript" ></script>
+</head>
+<body>
+    <nav class="nav">
+        <span class="active-span">医对一文章</span><span>我的文章</span><span>推送消息</span>
+    </nav> 
+    <!--医对一文章-->
+    <section class="tab_content">
+    	<!--滑动tab头-->
+        <div id="swiper-container1" class="swiper-container1 tab_nav clearfix">
+            <div class="swiper-wrapper clearfix">
+                <div class="swiper-slide active-nav">
+                    <span>推荐</span>
+                </div>
+                <div class="swiper-slide">
+                    <span>高血压</span>
+                </div>
+                <div class="swiper-slide">
+                    <span>四季养生</span>
+                </div>
+                <div class="swiper-slide">
+                    <span >脾胃</span>
+                </div>
+                <div class="swiper-slide">
+                    <span>微课堂</span>
+                </div>
+                <div class="swiper-slide">
+                    <span>呵呵</span>
+                </div>
+                <div class="swiper-slide">
+                    <span>吼吼</span>
+                </div>
+                <div class="swiper-slide">
+                    <span>咿呀昂</span>
+                </div>
+            </div>           
+        </div>          
+        <script>
+        	var mySwiper1 = new Swiper('#swiper-container1', {
+			    watchSlidesProgress: true,
+			    watchSlidesVisibility: true,
+			    slidesPerView: 4.5,
+			    onTap: function() {
+			        mySwiper2.slideTo(mySwiper1.clickedIndex)
+			    }
+			})
+        </script>     
+        <!--tab对应内容-->
+        <div class="swiper-container" id="swiper-container2">
+        	<div class="swiper-wrapper" >
+                <ul class="tab_box swiper-slide clearfix">
+                	<li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>
+                    <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送
+			               </div>
+			           </a>
+				    </li>				     
+                </ul>
+                <ul class="tab_box swiper-slide clearfix">
+                    <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>
+                </ul>
+                <ul class="tab_box swiper-slide clearfix">
+                     <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>
+                    <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>
+                </ul>
+                <ul class="tab_box swiper-slide clearfix">
+                   <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>                     
+                </ul>
+                <ul class="tab_box swiper-slide clearfix">                     
+                    <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>                  
+                </ul>
+                <ul class="tab_box swiper-slide clearfix">
+                   <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div> 
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>
+                    <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>
+                </ul>
+                <ul class="tab_box swiper-slide clearfix">                     
+                    <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>    				    
+                </ul>
+                <ul class="tab_box swiper-slide clearfix">                     
+                    <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span class="mark_label">养生</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>                  
+                </ul>
+            </div>
+        </div>	
+    </section>
+    <!--我的文章-->
+    <section class="tab_content" style="display:none">
+        <!--滑动tab头-->
+        <div id="swiper-container3" class="swiper-container3 tab_nav clearfix">
+            <div class="swiper-wrapper clearfix">
+                <div class="swiper-slide active-nav" style="width: 1.2rem;">
+                    <span>全部</span>
+                </div>                  
+            </div>           
+        </div>         
+        <!--tab对应内容-->
+        <div class="swiper-container" id="swiper-container4">
+        	<div class="swiper-wrapper" >
+                <ul class="tab_box swiper-slide clearfix">
+                	<li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span>2016-10-10</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>
+                    <li class="content">
+			           <a href="" class="content_a">
+			               <div class="artImg"><img class="lazyload" src="../static/imgs/yujiazai.png" data-original ="../static/imgs/fix.png" alt=""/></div>
+			               <div class="artCon">
+			                   <h3>我院开展免费诊疗活动，大家踊跃报名参加</h3>
+			                   <p><span>2016-10-10</span><strong>阅读量：222</strong></p>
+			               </div>
+			               <div class="artBtn">推送			               	 
+			               </div>
+			           </a>
+				    </li>				     
+                </ul>
+            </div>
+        </div>	
+    </section>
+    <!--推送消息-->
+    <section class="tab_content" style="display:none">
+       <div class="header">
+       	    <input id="input_focus" type="text" placeholder="请输入标题(30字以内)" maxlength="30"/>
+       </div>
+       <div class="text_cont">
+       	   <textarea placeholder="请输入内容" ></textarea>
+       </div>
+    </section>     
+</body>
+<script src="../static/js/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+   //nav切换
+	$('.nav span').click(function(){
+        $('.nav span').removeClass();
+        $(this).addClass('active-span');
+        $('.tab_content').hide().eq($(this).index()).show();
+        $('.lazyload').trigger('sporty');
+	});	
+    //医对一文章滑动切换
+    var $wrap = $('#swiper-container2'); //活动对象
+	var $ullist = $('.tab_box'); //切换的table  
+	var liheight = $ullist.eq(0).children().outerHeight(); //单个li的高度
+	var mySwiper2 = new Swiper('#swiper-container2', {
+	    onSlideChangeStart: function(a, b, c) {
+	        updateNavPosition()
+	        setTimeout(function() { //倒计时,保证所有动作完成后执行
+	            var h = $ullist.eq(a.activeIndex).children().length * liheight; //计算出li的数量 X li的高度
+	            $wrap.css('height', h);
+	        }, 0);
+	    }
+	});	
+	function updateNavPosition() {
+		$('.lazyload').trigger('sporty');
+	    $('#swiper-container1 .active-nav').removeClass('active-nav');
+	    var activeNav = $('#swiper-container1 .swiper-slide')
+	        .eq(mySwiper2.activeIndex).addClass('active-nav');
+	    if (!activeNav.hasClass('swiper-slide-visible')) {
+	        if (activeNav.index() > mySwiper1.activeIndex) {
+	            var thumbsPerNav = Math.floor(mySwiper1.width / activeNav.width()) - 1
+	            mySwiper1.slideTo(activeNav.index() - thumbsPerNav)
+	        } else {
+	            mySwiper1.slideTo(activeNav.index())
+	        }
+	
+	    }
+	};
+	//懒加载
+	$(".lazyload").lazyload({
+        placeholder: "../static/imgs/yujiazai.png",
+        effect: "fadeIn",
+        event:"sporty"//触发加载图片事件
+    });
+    //推送消息     
+    $('.header input').blur(function(){
+    	$(this).addClass('dots');
+    }).focus(function(){
+    	$(this).removeClass('dots');    	
+    }).click(function(){
+    	$(this).focus();//使input获取焦点
+        var result=$(this).val();//对input取值
+        $(this).val("")//使input的值为空
+        $(this).val(result);//重新负值
+        $(this)[0].scrollLeft=700;//对文本框的属性做了一个猜想，应该是有滚动条对其进行一个偏移
+    });
+	$('.text_cont').click(function(){
+    	$(this).find('textarea').focus();
+    });
+    //textarea跟随滚动条增加高度
+    $('textarea').keyup(function(){
+    	var oh = $(this).height();
+        $(this).height($(this).scrollTop()+oh);
+    });
+     
+</script> 
+</html>
